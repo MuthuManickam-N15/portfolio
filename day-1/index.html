@@ -3,49 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Manoj</title>
+    <title>Manoj's Portfolio</title>
     <style>
+        /* Simple CSS for layout */
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 0 20px;
+            margin: 0;
+            padding: 0;
             line-height: 1.6;
-            background-color: #f9f9f9;
+            background-color: #f4f4f4;
             color: #333;
         }
-        h1 {
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            color: #0077cc;
         }
-        img {
-            display: block;
+        main {
+            max-width: 800px;
             margin: 20px auto;
+            padding: 0 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img.profile {
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            object-fit: cover;
+            display: block;
+            margin: 20px auto;
         }
-        p {
-            text-align: justify;
-        }
-        .contact {
-            margin-top: 30px;
+        h1, h2 {
             text-align: center;
         }
-        .contact a {
-            text-decoration: none;
+        ul {
+            list-style-type: square;
+            margin: 0;
+            padding: 0 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            background-color: #eee;
+        }
+        a {
             color: #0077cc;
-            margin: 0 10px;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>About Me</h1>
-    <img src="profile.jpg" alt="Manoj's Photo">
-    <p>Hello! My name is <strong>Manoj</strong>. I am a web development enthusiast learning and building projects every day. I enjoy creating clean and functional websites and improving my coding skills daily. My goal is to become a professional full-stack developer and work on exciting projects that make an impact.</p>
-    
-    <p>I am passionate about learning new technologies, solving problems, and turning ideas into reality through coding. In my free time, I explore web design trends, practice JavaScript, and experiment with small projects to improve my portfolio.</p>
-    
+    <header>
+        <h1>Hi, I’m Manoj</h1>
+        <p>Aspiring Web Developer</p>
+    </header>
+
+    <main>
+        <img src="your-photo.jpg" alt="Manoj Photo" class="profile">
+
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I am learning web development and building projects to grow as a freelancer. I am passionate about creating clean and responsive websites.</p>
+        </section>
+
+        <section>
+            <h2>Skills I’m Learning</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript (Vanilla JS)</li>
+                <li>React</li>
+                <li>Node.js & Express</li>
+                <li>Databases (Postgres / MongoDB)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Connect with Me</h2>
+            <p>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a> | 
+                <a href="https://www.linkedin.com/in/yourusername/" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Manoj. All rights reserved.
+    </footer>
 </body>
 </html>
