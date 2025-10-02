@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MuthuManickam - Modern Web Developer</title>
+    <meta name="description" content="Professional web developer specializing in responsive design, fast websites, and SEO optimization. Transform your ideas into stunning digital experiences.">
+    <meta name="keywords" content="web developer, responsive design, SEO optimization, landing pages, website design, fast websites">
+    <meta name="author" content="Manoj Dev">
+    <title>Muthumanickam Dev - Transforming Ideas into Stunning Websites</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +17,9 @@
         <div class="logo">Portfolio</div>
         <nav>
             <a href="#hero">Home</a>
+            <a href="#services">Services</a>
             <a href="#about">About</a>
+            <a href="#testimonials">Testimonials</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -22,51 +27,90 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
-            <h2>Building Modern<br>Web Experiences</h2>
-            <p>Clean, responsive, and fast websites that make an impact.</p>
-            <a href="#contact" class="btn">Get Started</a>
+            <h1>Transforming Ideas into<br>Stunning Websites</h1>
+            <p class="subheadline">Responsive Web Design | Fast Load Times | SEO Optimized</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">Get Your Free Quote</a>
+                <a href="#services" class="btn btn-secondary">View My Services</a>
+            </div>
         </div>
     </section>
 
-    <!-- Features / Services -->
-    <section id="features">
-        <div class="card">
-            <h3>Responsive Design</h3>
-            <p>Beautiful layouts that adapt seamlessly to any device, ensuring perfect user experience everywhere.</p>
-        </div>
-        <div class="card">
-            <h3>Lightning Fast</h3>
-            <p>Optimized performance and blazing-fast load times that keep your visitors engaged.</p>
-        </div>
-        <div class="card">
-            <h3>SEO Optimized</h3>
-            <p>Built with best practices to help your website rank higher and reach more people.</p>
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services I Offer</h2>
+        <p class="section-subtitle">Comprehensive web solutions tailored to your needs</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Custom Landing Pages</h3>
+                <p>Eye-catching, conversion-focused landing pages designed to capture leads and drive action.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🛒</div>
+                <h3>E-commerce Solutions</h3>
+                <p>Full-featured online stores with secure payment integration and inventory management.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔄</div>
+                <h3>Website Redesigns</h3>
+                <p>Modernize your existing website with fresh design and improved user experience.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">📈</div>
+                <h3>SEO Optimization</h3>
+                <p>Boost your search rankings and visibility with proven SEO strategies and techniques.</p>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I'm a passionate web developer dedicated to crafting exceptional digital experiences. With a focus on modern design principles and cutting-edge technologies, I transform ideas into powerful, functional websites that drive results.</p>
+        <p>I'm a passionate web developer dedicated to crafting exceptional digital experiences. With expertise in modern design principles and cutting-edge technologies, I transform ideas into powerful, functional websites that drive results. My focus is on delivering high-quality projects that exceed expectations while maintaining performance, accessibility, and user satisfaction.</p>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Clients Say</h2>
+        <p class="section-subtitle">Real feedback from satisfied customers</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Muthumanickam transformed our website, increasing our conversion rate by 30%! His attention to detail and professionalism are outstanding."</p>
+                <p class="client-name">— Sarah Johnson, CEO at TechStart</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Fast turnaround, beautiful design, and excellent communication throughout the project. Highly recommend!"</p>
+                <p class="client-name">— Michael Chen, Founder of GrowthLab</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"The website looks amazing on all devices. Our mobile traffic has doubled since the redesign!"</p>
+                <p class="client-name">— Emily Rodriguez, Marketing Director</p>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Let's Connect</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
+        <p class="section-subtitle">Ready to start your project? Get in touch today!</p>
+        <form id="contactForm" aria-label="Contact form">
+            <input type="text" id="name" name="name" placeholder="Your Name" required aria-label="Your name">
+            <input type="email" id="email" name="email" placeholder="Your Email" required aria-label="Your email address">
+            <textarea id="message" name="message" placeholder="Tell me about your project" required aria-label="Your message"></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
     </section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Muthumanickam Dev. All rights reserved.</p>
-        <div>
-            <a href="https://github.com/MuthuManickam-N15/portfolio.git" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/muthu-manickam-a021ab388/" target="_blank">LinkedIn</a>
+        <div class="footer-links">
+            <a href="https://github.com/MuthuManickam-N15" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">GitHub</a>
+            <a href="https://www.linkedin.com/in/muthu-manickam-a021ab388/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">LinkedIn</a>
         </div>
     </footer>
 
