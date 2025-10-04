@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read articles about web development, design tips, tutorials, and industry insights from Muthumanickam.">
+    <meta name="keywords" content="blog, web development, tutorials, design, programming">
+    
+    <title>Blog - Muthumanickam | Web Development Articles & Tutorials</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Muthu</span><span class="logo-accent">.</span>
+                </a>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content fade-in">
+                <span class="page-tag">Knowledge Hub</span>
+                <h1 class="page-title">Blog</h1>
+                <p class="page-description">
+                    Articles, tutorials, and insights about web development and design
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="blog-layout">
+                <!-- Main Blog Content -->
+                <div class="blog-main">
+                    <div class="blog-grid">
+                        
+                        <!-- Blog Post 1 -->
+                        <article class="blog-card fade-in-up">
+                            <div class="blog-image">
+                                <img src="images/blog-1.jpg" alt="How I Built a Freelancer Website in 2 Days" loading="lazy">
+                                <span class="blog-category">Tutorial</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> Jan 15, 2024</span>
+                                    <span><i class="far fa-clock"></i> 8 min read</span>
+                                    <span><i class="far fa-comment"></i> 24 comments</span>
+                                </div>
+                                <h3>How I Built a Freelancer Website in 2 Days</h3>
+                                <p>Learn the exact process I used to design and develop a professional freelancer portfolio website in just 48 hours using modern web technologies and efficient workflows.</p>
+                                <a href="#" class="blog-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">HTML</span>
+                                    <span class="blog-tag">CSS</span>
+                                    <span class="blog-tag">JavaScript</span>
+                                    <span class="blog-tag">Portfolio</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 2 -->
+                        <article class="blog-card fade-in-up">
+                            <div class="blog-image">
+                                <img src="images/blog-2.jpg" alt="10 CSS Tricks Every Developer Should Know" loading="lazy">
+                                <span class="blog-category">Tips & Tricks</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> Jan 10, 2024</span>
+                                    <span><i class="far fa-clock"></i> 6 min read</span>
+                                    <span><i class="far fa-comment"></i> 18 comments</span>
+                                </div>
+                                <h3>10 CSS Tricks Every Developer Should Know</h3>
+                                <p>Discover powerful CSS techniques that will level up your styling game. From custom properties to modern layout systems, these tricks will save you time and make your code cleaner.</p>
+                                <a href="#" class="blog-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">CSS</span>
+                                    <span class="blog-tag">Tips</span>
+                                    <span class="blog-tag">Best Practices</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 3 -->
+                        <article class="blog-card fade-in-up">
+                            <div class="blog-image">
+                                <img src="images/blog-3.jpg" alt="React vs Vue: Which Framework to Choose" loading="lazy">
+                                <span class="blog-category">Comparison</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> Jan 5, 2024</span>
+                                    <span><i class="far fa-clock"></i> 10 min read</span>
+                                    <span><i class="far fa-comment"></i> 42 comments</span>
+                                </div>
+                                <h3>React vs Vue: Which Framework to Choose in 2024</h3>
+                                <p>An in-depth comparison of React and Vue.js to help you make an informed decision for your next project. We'll look at performance, learning curve, ecosystem, and more.</p>
+                                <a href="#" class="blog-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">React</span>
+                                    <span class="blog-tag">Vue</span>
+                                    <span class="blog-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 4 -->
+                        <article class="blog-card fade-in-up">
+                            <div class="blog-image">
+                                <img src="images/blog-4.jpg" alt="Mastering GSAP Animations" loading="lazy">
+                                <span class="blog-category">Animation</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> Dec 28, 2023</span>
+                                    <span><i class="far fa-clock"></i> 12 min read</span>
+                                    <span><i class="far fa-comment"></i> 31 comments</span>
+                                </div>
+                                <h3>Mastering GSAP Animations for Modern Websites</h3>
+                                <p>Take your web animations to the next level with GSAP. Learn how to create smooth, performant animations that will make your websites stand out from the crowd.</p>
+                                <a href="#" class="blog-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">GSAP</span>
+                                    <span class="blog-tag">Animation</span>
+                                    <span class="blog-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 5 -->
+                        <article class="blog-card fade-in-up">
+                            <div class="blog-image">
+                                <img src="images/blog-5.jpg" alt="SEO Best Practices 2024" loading="lazy">
+                                <span class="blog-category">SEO</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> Dec 20, 2023</span>
+                                    <span><i class="far fa-clock"></i> 9 min read</span>
+                                    <span><i class="far fa-comment"></i> 27 comments</span>
+                                </div>
+                                <h3>SEO Best Practices for Developers in 2024</h3>
+                                <p>Optimize your websites for search engines with these essential SEO techniques. From semantic HTML to Core Web Vitals, learn what matters most for ranking.</p>
+                                <a href="#" class="blog-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">SEO</span>
+                                    <span class="blog-tag">Performance</span>
+                                    <span class="blog-tag">Best Practices</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- Blog Post 6 -->
+                        <article class="blog-card fade-in-up">
+                            <div class="blog-image">
+                                <img src="images/blog-6.jpg" alt="Building a Design System" loading="lazy">
+                                <span class="blog-category">Design</span>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-meta">
+                                    <span><i class="far fa-calendar"></i> Dec 15, 2023</span>
+                                    <span><i class="far fa-clock"></i> 15 min read</span>
+                                    <span><i class="far fa-comment"></i> 19 comments</span>
+                                </div>
+                                <h3>Building a Scalable Design System from Scratch</h3>
+                                <p>Learn how to create a comprehensive design system that will streamline your development process and ensure consistency across all your projects.</p>
+                                <a href="#" class="blog-read-more">
+                                    Read More <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">Design System</span>
+                                    <span class="blog-tag">UI/UX</span>
+                                    <span class="blog-tag">CSS</span>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!-- Pagination -->
+                    <div class="pagination fade-in-up">
+                        <button class="pagination-btn" disabled>
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="pagination-btn active">1</button>
+                        <button class="pagination-btn">2</button>
+                        <button class="pagination-btn">3</button>
+                        <span class="pagination-dots">...</span>
+                        <button class="pagination-btn">10</button>
+                        <button class="pagination-btn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="blog-sidebar">
+                    <!-- Search Widget -->
+                    <div class="sidebar-widget fade-in-up">
+                        <h3>Search</h3>
+                        <div class="sidebar-search">
+                            <input type="text" placeholder="Search articles..." aria-label="Search blog">
+                            <button type="submit" aria-label="Search">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Categories Widget -->
+                    <div class="sidebar-widget fade-in-up">
+                        <h3>Categories</h3>
+                        <div class="category-list">
+                            <div class="category-item">
+                                <span>Tutorial</span>
+                                <span class="category-count">12</span>
+                            </div>
+                            <div class="category-item">
+                                <span>Tips & Tricks</span>
+                                <span class="category-count">8</span>
+                            </div>
+                            <div class="category-item">
+                                <span>JavaScript</span>
+                                <span class="category-count">15</span>
+                            </div>
+                            <div class="category-item">
+                                <span>CSS</span>
+                                <span class="category-count">10</span>
+                            </div>
+                            <div class="category-item">
+                                <span>Design</span>
+                                <span class="category-count">7</span>
+                            </div>
+                            <div class="category-item">
+                                <span>SEO</span>
+                                <span class="category-count">5</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Posts Widget -->
+                    <div class="sidebar-widget fade-in-up">
+                        <h3>Recent Posts</h3>
+                        <div class="recent-posts">
+                            <div class="recent-post-item">
+                                <div class="recent-post-image">
+                                    <img src="images/blog-thumb-1.jpg" alt="Recent post" loading="lazy">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4>How I Built a Freelancer Website in 2 Days</h4>
+                                    <span class="recent-post-date">
+                                        <i class="far fa-calendar"></i> Jan 15, 2024
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="recent-post-item">
+                                <div class="recent-post-image">
+                                    <img src="images/blog-thumb-2.jpg" alt="Recent post" loading="lazy">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4>10 CSS Tricks Every Developer Should Know</h4>
+                                    <span class="recent-post-date">
+                                        <i class="far fa-calendar"></i> Jan 10, 2024
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="recent-post-item">
+                                <div class="recent-post-image">
+                                    <img src="images/blog-thumb-3.jpg" alt="Recent post" loading="lazy">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4>React vs Vue: Which Framework to Choose</h4>
+                                    <span class="recent-post-date">
+                                        <i class="far fa-calendar"></i> Jan 5, 2024
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="recent-post-item">
+                                <div class="recent-post-image">
+                                    <img src="images/blog-thumb-4.jpg" alt="Recent post" loading="lazy">
+                                </div>
+                                <div class="recent-post-content">
+                                    <h4>Mastering GSAP Animations</h4>
+                                    <span class="recent-post-date">
+                                        <i class="far fa-calendar"></i> Dec 28, 2023
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Tags Widget -->
+                    <div class="sidebar-widget fade-in-up">
+                        <h3>Popular Tags</h3>
+                        <div class="popular-tags">
+                            <span class="tag-item">JavaScript</span>
+                            <span class="tag-item">React</span>
+                            <span class="tag-item">CSS</span>
+                            <span class="tag-item">HTML</span>
+                            <span class="tag-item">Node.js</span>
+                            <span class="tag-item">UI/UX</span>
+                            <span class="tag-item">Design</span>
+                            <span class="tag-item">Tutorial</span>
+                            <span class="tag-item">SEO</span>
+                            <span class="tag-item">Performance</span>
+                            <span class="tag-item">Animation</span>
+                            <span class="tag-item">Best Practices</span>
+                        </div>
+                    </div>
+
+                    <!-- Newsletter Widget -->
+                    <div class="sidebar-widget sidebar-newsletter fade-in-up">
+                        <h3>Newsletter</h3>
+                        <p>Subscribe to get my latest articles delivered to your inbox.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit" class="btn btn-primary">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Ad Space (Optional) -->
+                    <div class="sidebar-widget sidebar-ad fade-in-up">
+                        <div class="ad-placeholder">
+                            <i class="fas fa-ad"></i>
+                            <p>Ad Space</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter-cta-section">
+        <div class="container">
+            <div class="newsletter-cta-content fade-in-up">
+                <div class="newsletter-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h2>Stay Updated</h2>
+                <p>Get the latest articles and web development tips delivered straight to your inbox</p>
+                <form class="newsletter-cta-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Subscribe Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+                <small>No spam, unsubscribe anytime. Privacy policy.</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-text">Muthu</span><span class="logo-accent">.</span>
+                    </a>
+                    <p class="footer-description">
+                        Building modern web experiences with passion and precision.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://dribbble.com" target="_blank" rel="noopener" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Responsive Design</a></li>
+                            <li><a href="#">Consulting</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="mailto:hello@muthu.dev">hello@muthu.dev</a></li>
+                            <li><a href="tel:+1234567890">+123 456 7890</a></li>
+                            <li>Available for freelance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Muthumanickam. All rights reserved.</p>
+                <p>Designed & Built with <i class="fas fa-heart"></i> by Muthu</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
